@@ -1,0 +1,327 @@
+
+@import url('https://fonts.cdnfonts.com/css/agency-fb');
+
+@import url('https://fonts.cdnfonts.com/css/maiandra-gd');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: "got";
+    src: url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot");
+    src: url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/97c4b25dc74e0ab045154e75a8fdd69d.svg#Game of Thrones")format("svg");
+}
+
+.container {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url(../images/fire-landscape.jpeg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.container::after{
+    content: "";
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:linear-gradient(to top,rgba(0, 0, 0, 1),rgba(186, 248, 228, 0));   
+}
+
+.container h1 {
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-family: got;
+    text-shadow: 0px 0px 25px rgba(0, 0, 0, 0.5), 0px 0px 25px rgba(0, 0, 0, 0.502);
+
+}
+.text-flicker-in-glow{-webkit-animation:text-flicker-in-glow 4s linear both;animation:text-flicker-in-glow 4s linear both}
+
+  
+
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+.content {
+    width: 80%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
+    overflow-y: scroll;
+    position: relative;
+    padding: 60px 40px;
+}
+.event-logo {
+    position: absolute;
+    transform: translateY(-150%);
+    width: 270px;
+    z-index: 1000;
+    animation: rotateLogo 8s infinite; /* 8s includes rotation (3s) + wait (5s) */
+} 
+
+ /*event-logo animation*/
+
+ .flicker-4{-webkit-animation:flicker-4 4s linear infinite both;animation:flicker-4 4s linear infinite both}
+
+ /* ----------------------------------------------
+* Generated by Animista on 2024-10-18 1:4:56
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+@-webkit-keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}@keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}
+
+
+ .content::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller{
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+.content .text {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+    padding: 0 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Maiandra GD', sans-serif; 
+}
+
+.register-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: got;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+.register-btn{
+    padding: 15px 20px;
+    border-radius: 2px;
+    border:  1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+.register-btn:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+}
+.foot{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 0;
+    position: relative;
+}
+
+.foot h1{
+    color: rgba(216, 64, 41, 0.9);
+    letter-spacing: 2px;
+    font-size: 25px;
+    font-family: got;
+}
+.incharge{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.incharge1, .incharge2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.incharge p,.incharge a{
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-family: 'Maiandra GD', sans-serif;
+         
+}
+
+
+@media screen and (width<=480px) {
+    .container {
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/fire.jpg);
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    
+    .container h1 {
+        color: rgba(255, 255, 255, 0.9);
+        letter-spacing: 2px;
+        font-size: 22px;
+        text-align: center;
+        line-height: 40px;
+        font-family: got;
+        text-shadow: 0px 0px 25px rgba(236, 209, 127, 0.5), 0px 0px 25px rgba(186, 248, 228, 0.5);
+    
+    }
+
+    /* heading animation */
+
+    .text-flicker-in-glow{-webkit-animation:text-flicker-in-glow 4s linear both;animation:text-flicker-in-glow 4s linear both}
+
+  
+
+@-webkit-keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}@keyframes text-flicker-in-glow{0%{opacity:0}10%{opacity:0;text-shadow:none}10.1%{opacity:1;text-shadow:none}10.2%{opacity:0;text-shadow:none}20%{opacity:0;text-shadow:none}20.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.25)}20.6%{opacity:0;text-shadow:none}30%{opacity:0;text-shadow:none}30.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.5%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}30.6%{opacity:0;text-shadow:none}45%{opacity:0;text-shadow:none}45.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}50%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.45),0 0 60px rgba(255,255,255,.25)}55.1%{opacity:0;text-shadow:none}57%{opacity:0;text-shadow:none}57.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35)}60.1%{opacity:0;text-shadow:none}65%{opacity:0;text-shadow:none}65.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.35),0 0 100px rgba(255,255,255,.1)}75.1%{opacity:0;text-shadow:none}77%{opacity:0;text-shadow:none}77.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.55),0 0 60px rgba(255,255,255,.4),0 0 110px rgba(255,255,255,.2),0 0 100px rgba(255,255,255,.1)}85.1%{opacity:0;text-shadow:none}86%{opacity:0;text-shadow:none}86.1%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}100%{opacity:1;text-shadow:0 0 30px rgba(255,255,255,.6),0 0 60px rgba(255,255,255,.45),0 0 110px rgba(255,255,255,.25),0 0 100px rgba(255,255,255,.1)}}
+
+
+.content {
+    width: 80%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.9);
+    overflow-y: scroll;
+    position: relative;
+    padding: 50px 10px;
+}
+.event-logo {
+    position: absolute;
+    transform: translateY(-200%);
+    width: 220px;
+    z-index: 1000;
+    animation: rotateLogo 8s infinite; /* 8s includes rotation (3s) + wait (5s) */
+} 
+
+ /*event-logo animation*/
+
+ .flicker-4{-webkit-animation:flicker-4 4s linear infinite both;animation:flicker-4 4s linear infinite both}
+
+ /* ----------------------------------------------
+* Generated by Animista on 2024-10-18 1:4:56
+* Licensed under FreeBSD License.
+* See http://animista.net/license for more info. 
+* w: http://animista.net, t: @cssanimista
+* ---------------------------------------------- */
+
+@-webkit-keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}@keyframes flicker-4{0%,100%{opacity:1}31.98%{opacity:1}32%{opacity:0}32.8%{opacity:0}32.82%{opacity:1}34.98%{opacity:1}35%{opacity:0}35.7%{opacity:0}35.72%{opacity:1}36.98%{opacity:1}37%{opacity:0}37.6%{opacity:0}37.62%{opacity:1}67.98%{opacity:1}68%{opacity:0}68.4%{opacity:0}68.42%{opacity:1}95.98%{opacity:1}96%{opacity:0}96.7%{opacity:0}96.72%{opacity:1}98.98%{opacity:1}99%{opacity:0}99.6%{opacity:0}99.62%{opacity:1}}
+
+
+
+ .content::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller::-webkit-scrollbar {
+    display: none;
+}
+
+.scroller{
+    overflow: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+    
+    .content .text {
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 15px;
+        line-height: 25px;
+        padding: 0 15px;
+        text-align: left;
+    }
+
+    .text span{
+        text-align: center;
+    }
+
+    .register-btn a{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-shadow: 0px 0px 25px rgba(186, 248, 228, 0.5), 0px 0px 25px rgba(186, 248, 228, 0.5);
+        font-family: got;
+        font-size: 12px;
+    }
+    .register-btn{
+        padding: 15px 20px;
+        border-radius: 2px;
+        border:  1px solid rgba(255, 255, 255, 0.5);
+        outline: none;
+        background-color: rgba(0, 0, 0, 0.95);
+    }
+    .register-btn:hover{
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
+    }
+    .foot{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.95);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        padding: 40px 0;
+        position: relative;
+    }
+
+    .foot h1{
+        color: rgba(216, 64, 41, 0.9);
+        letter-spacing: 2px;
+        font-size: 23px;
+        font-family: got;
+    }
+    .incharge{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .incharge1, .incharge2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .incharge p,.incharge a{
+        color: rgba(255, 255, 255, 1);
+        font-size: 15px;
+        font-family: 'Maiandra GD', sans-serif;              
+    }
+    
+}
